@@ -1,0 +1,107 @@
+
+section.contacto {
+    background-color: #f8830d;
+    text-align: center;
+    width: 1000px;
+    background: #f8830d;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+}
+
+section.contacto form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+section.contacto label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+section.contacto input,
+section.contacto textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+section.contacto button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+section.contacto button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo común para el contenedor del mensaje y el formulario */
+.mensaje-container, .formulario-container {
+    background-color: rgb(247, 244, 240); /* Fondo blanco dentro del borde */
+    border: 5px solid #0a0a0a; /* Borde marrón */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px;
+    margin:auto;
+    max-width: 1000px; /* Opcional: establece un ancho máximo */
+  }
+  
+  /* Estilo adicional para el botón */
+  button {
+    background-color: #4CAF50; /* Fondo verde */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #c02f03;
+  }
+  
+  /* Estilo para el formulario */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label, form input, form button {
+    margin: 10px 0;
+  }
+  
+  /* Fondo fuera del borde */
+  .mensaje-container {
+    background-color: #f1c786; /* Fondo café claro fuera del borde */
+  }
+  
+  .formulario-container {
+    background-color: #f1c786; /* Fondo café claro fuera del borde */
+  }
+  
+  /* Contenedor para la imagen con marco */
+.image-container {
+    border: 5px solid #000000; /* Marco alrededor de la imagen */
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+  
+  /* Imagen con estilos */
+  .image {
+    width: 300px; /* Ancho de la imagen */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }

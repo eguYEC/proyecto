@@ -1,0 +1,32 @@
+.nav-link:hover {
+  background-color: #661d00; /* Mismo color de fondo que en Acerca de */
+  color: rgb(251, 250, 250); /* Texto en blanco */
+  border-color: #e7ebea; /* Borde del mismo color */
+  box-shadow: 0 4px 10px rgba(235, 232, 232, 0.2); /* Sombra más pronunciada */
+}
+.nav-link {
+  border-radius: 10px; /* Bordes redondeados */
+ 
+  margin-left: 0 ; /* Elimina márgenes hacia la izquierda */
+  margin-right: 250; /* Alinea el botón a la izquierda */
+  padding: 8px 16px; /* Espaciado interno */
+  font-weight: 500; /* Letras más gruesas */
+  box-shadow: 0 4px 6px rgba(231, 225, 225, 0.2); /* Sombra ligera */
+  transition: all 0.3s ease; /* Transición suave */
+}
+.navbar-brand:hover {
+  background-color: #661d00; /* Mismo color de fondo que en Acerca de */
+  color: rgb(251, 250, 250); /* Texto en blanco */
+  border-color: #e7ebea; /* Borde del mismo color */
+  box-shadow: 0 4px 10px rgba(235, 232, 232, 0.2); /* Sombra más pronunciada */
+}
+.navbar-brand {
+  border-radius: 10px; /* Bordes redondeados */
+ 
+  margin-left: 0 ; /* Elimina márgenes hacia la izquierda */
+  margin-right: 250; /* Alinea el botón a la izquierda */
+  padding: 8px 16px; /* Espaciado interno */
+  font-weight: 500; /* Letras más gruesas */
+  box-shadow: 0 4px 6px rgba(231, 225, 225, 0.2); /* Sombra ligera */
+  transition: all 0.3s ease; /* Transición suave */
+}

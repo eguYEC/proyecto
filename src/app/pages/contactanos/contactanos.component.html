@@ -1,0 +1,29 @@
+<section id="contacto" class="contacto">
+    <div class="image-container">
+        <img src="imagenes/16.jpg" alt="Cafetería Aroma y Sabor" class="image" />
+      </div>
+    <!-- Mensaje de agradecimiento que aparecerá primero -->
+    <div *ngIf="mostrarMensaje" class="mensaje-container">
+      <h2>¡Gracias por elegir nuestra cafetería!</h2>
+      <p>Estamos encantados de que quieras ponerte en contacto con nosotros. Por favor, completa el siguiente formulario para enviarnos tu mensaje.</p>
+      <button (click)="mostrarFormulario()">Ir al formulario</button>
+    </div>
+  
+    <!-- Formulario de contacto, inicialmente oculto -->
+    <div *ngIf="mostrarFormularioFlag" class="formulario-container">
+      <h2>Contáctanos</h2>
+      <form action="enviar_formulario.php" method="post">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+  
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+  
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+  
+          <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+  

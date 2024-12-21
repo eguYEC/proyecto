@@ -1,0 +1,90 @@
+/* app.component.css */
+html, body {
+  height: 100%; /* Asegura que ocupen toda la altura */
+  margin: 0;    /* Elimina el margen por defecto */
+  padding: 0;   /* Elimina el padding por defecto */
+}
+/* Contenedor principal con fondo café claro */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+  background-color: #bd6c2f; /* Color café claro */
+  padding-top: 60px; /* Agregar espacio superior para evitar que se tape por el navbar */
+  
+  border: 10px solid #0a0a0a; /* Borde marrón */
+  border-radius: 10px;
+}
+
+/* Estilo para el nombre de la cafetería */
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #020201; /* Un tono cálido que podría combinar con la temática de café */
+  margin-bottom: 30px;
+}
+
+/* Contenedor para la imagen con marco */
+.image-container {
+  border: 5px solid #000000; /* Marco alrededor de la imagen */
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+/* Imagen con estilos */
+.image {
+  width: 300px; /* Ancho de la imagen */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Estilo para la historia de la cafetería */
+.history {
+  margin: 30px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #020100; /* Un color más oscuro para el texto */
+  text-align: left;
+  max-width: 800px; /* Limita el ancho del texto para mejor legibilidad */
+}
+
+/* Estilo para el pie de página */
+.footer {
+  font-size: 1rem;
+  color: #000000;
+}
+
+section {
+  padding: 50px 20px;
+}
+
+.galeria { 
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
+  width: 600px;
+  height: 430px;
+  margin: 0 auto;
+  
+  
+}
+
+.galeria img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;   
+  transition: .5s ease;
+}
+
+.galeria img:hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
